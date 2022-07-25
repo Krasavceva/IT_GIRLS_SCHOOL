@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.plus {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+
+}
+
+#text {
+    width: 50vw;
+    height: 10vh;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    outline: 0;
+}
+
+#send {
+    width: 50vw;
+    height: 8vh;
+    background-color: orange;
+    border-radius: 10px;
+    border-color: aliceblue;
+    font-size: large;
+}

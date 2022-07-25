@@ -1,0 +1,25 @@
+input {
+    margin-bottom: 10px;
+    border-color: whitesmoke;
+    padding: 15px;
+}
+
+button {
+    border-color: whitesmoke;
+    height: 50px;
+    width: 50px;
+    font-size: large;
+}
+
+.nan {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.inner-container {
+    margin: 10% 40%;
+    background-color: beige;
+    border: black 2px solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}

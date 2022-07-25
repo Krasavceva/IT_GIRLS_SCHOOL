@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Калькулятор стоимости авто</h1>
+        <form class="form">
+            <div class="auto">
+                <p>Выберите марку машины</p>
+                <select id="brand">
+                    <option value="Skoda" class="brand">Nissan</option>
+                    <option value="Audi" class="brand">Audi</option>
+                    <option value="BMW" class="brand">BMW</option>
+                    <option value="Renault" class="brand">Mercedes</option>
+                    <option value="Nissan" class="brand">Skoda</option>
+                </select>
+            </div>
+            <div class="complete">
+                <p>Комплектация:</p>
+                <select>
+                    <option value="Economy">Economy</option>
+                    <option value="Comfort">Comfort</option>
+                    <option value="Business">Business</option>
+                </select>
+            </div>
+            <div class="options">
+                <p>Дополнительно:</p>
+                <label>Кондиционер
+                    <input type="checkbox" class="check" value="3000">
+                </label>
+                <label>Парктроник
+                    <input type="checkbox" class="check" value="2500">
+                </label>
+                <label>Чехлы
+                    <input type="checkbox" class="check" value="1000">
+                </label>
+            </div>
+            <button class="btn all__btn">Рассчитать</button>
+            <button class="btn2 all__btn">Сбросить</button>
+        </form>
+    </div>
+
+    <script src="./auto.js/auto.js"></script>
+</body>
+
+</html>

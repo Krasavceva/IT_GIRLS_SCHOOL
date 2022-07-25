@@ -1,0 +1,310 @@
+.btn {
+    background-color: #5222D0;
+    border-radius: 100px;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+
+.header__btn {
+    width: 270px;
+    height: 84px;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.header__btnb {
+    Width: 115px;
+    Height: 38px;
+}
+
+.column__text {
+    margin-top: 30px;
+}
+
+.column__title {
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    margin-top: 70px
+}
+
+.header__main {
+    display: flex;
+}
+
+.header__maintext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 126px;
+}
+
+.header__text {
+    margin-top: 10px;
+}
+
+.header__title {
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 76px;
+    margin-right: 74px;
+}
+
+.main-column__icon {
+    background-color: #EC615B;
+    width: 365px;
+    height: 233px;
+}
+
+.main-nav__link {
+    color: black;
+}
+
+.main__column {
+    margin-left: 92px;
+}
+
+.main__row {
+    display: flex;
+    width: 100%;
+}
+
+.main__title {
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 125px;
+    margin-bottom: 70px;
+}
+
+.column__pink {
+    background-color: #EC615B;
+    width: 365px;
+    height: 233px;
+}
+
+.input {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.title-pink {
+    padding-left: 20px;
+    color: white;
+    padding-left: 20px;
+}
+
+.btn-pink {
+    margin-top: 20px;
+    width: 135px;
+    height: 38px;
+}
+
+.main-column__btn {
+    padding-left: 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.header-nav__link {
+    color: #5222D0;
+}
+
+.link {
+    padding: 1px;
+    text-decoration: none;
+    margin-left: 126px;
+    font-size: 20px;
+}
+
+.nav {
+    max-height: 50px;
+    height: 50px;
+}
+
+.photo {
+    max-width: 100%;
+    width: 100%;
+}
+
+.text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.title {
+    font-family: 'PT Serif', serif;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .header {
+        max-width: 100vw;
+        width: 100vw;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .header__btnb {
+        Width: 80px;
+        Height: 20px;
+        font-size: 10px;
+    }
+    .photo {
+        display: none;
+    }
+
+    .main {
+        max-width: 100vw;
+        width: 100vw;
+    }
+    .main__title {
+        margin-left: 15px;
+    }
+    .title {
+        font-size: 30px;
+    }
+
+    .text {
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
+    }
+
+    .header__btn {
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .nav {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .link {
+        padding: 1px;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .main__row {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .main__column {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 100vw;
+    }
+    .header__maintext {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .main__maintext {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        max-width: 100vw;
+        width: 100vw;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .header__btnb {
+        Width: 80px;
+        Height: 20px;
+        font-size: 10px;
+    }
+    .photo {
+        display: none;
+    }
+
+    .main {
+        max-width: 100vw;
+        width: 100vw;
+    }
+    .main__title {
+        margin-left: 15px;
+    }
+    .title {
+        font-size: 30px;
+    }
+
+    .text {
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
+    }
+
+    .header__btn {
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .nav {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .link {
+        padding: 1px;
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .main__row {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .main__column {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 100vw;
+    }
+    .header__maintext {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .main__maintext {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    
+}

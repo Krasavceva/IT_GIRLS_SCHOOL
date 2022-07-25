@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize/normalize.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <p>КАЛЬКУЛЯТОР</p>
+            <input type="text" id="firstNumber" placeholder="Введите первое число"> <br>
+            <input type="text" id="secondNumber" placeholder="Введите второе число">
+
+            <div class="button-container">
+                <button class="summ" onclick="summ()">+</button>
+                <button class="subt" onclick="subt()">-</button>
+                <button class="multip" onclick="multip()">x</button>
+                <button class="divide" onclick="divide()">:</button>
+            </div>
+
+            <div>
+                <div class="result-container">
+                    <p>РЕЗУЛЬТАТ:</p>
+                    <input type="text" id="result"> <br>
+                    <button class="nan">Сбросить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

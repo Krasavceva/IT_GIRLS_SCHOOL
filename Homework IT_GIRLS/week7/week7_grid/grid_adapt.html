@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .numb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+    .one {
+        background-color: aqua;
+    }
+    .two {
+        background-color: blueviolet;
+    }
+    .three {
+        background-color: brown;
+    }
+    .four {
+        background-color: antiquewhite;
+    }
+    .five {
+        background-color: gold;
+    }
+    .six {
+        background-color: rgb(182, 125, 50);
+    }
+    .seven {
+        background-color: yellowgreen;
+    }
+    .eight {
+        background-color: salmon;
+    }
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 50px);
+    gap: 5px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="numb one">1</div>
+        <div class="numb two">2</div>
+        <div class="numb three">3</div>
+        <div class="numb four">4</div>
+        <div class="numb five">5</div>
+        <div class="numb six">6</div>
+        <div class="numb seven">7</div>
+        <div class="numb eight">8</div>
+    </div>
+</body>
+
+</html>

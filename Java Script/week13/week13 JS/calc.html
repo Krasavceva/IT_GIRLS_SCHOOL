@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./JS/index.js"></script>
+
+    <style>
+        button {
+            width: 200px;
+            height: 50px;
+            border-color: black;
+            background-color: rosybrown;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <button onclick="func1()">+</button>
+    <button onclick="func2()">-</button>
+    <button onclick="func3()">*</button>
+    <button onclick="func4()">/</button>
+
+    <script>
+        function func1() {
+            let a = prompt('Введите первое число');
+            let b = prompt('Введите второе число');
+            alert(+a + +b);
+        }
+
+        function func2() {
+            let a = prompt('Введите первое число');
+            let b = prompt('Введите второе число');
+            alert(+a - +b);
+        }
+
+        function func3() {
+            let a = prompt('Введите первое число');
+            let b = prompt('Введите второе число');
+            alert(+a * +b);
+        }
+
+        function func4() {
+            let a = prompt('Введите первое число');
+            let b = prompt('Введите второе число');
+            alert(+a / +b);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+#logo {
+    margin: 120px 34px 120px 42px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 645px 20px 675px 49px;
+}
+
+nav .menu:hover {
+    text-decoration: underline;
+}
+
+#mainname {
+    font-size: 40px;
+    line-height: 49px;
+}
+
+#imgcompany {
+    padding-left: 686px;
+    border-radius: 0px 0px 0px 200px;
+
+}
+
+.menu,
+#mainname,
+.text {
+    font-family: 'Jost', sans-serif;
+}
+
+.text {
+    Width: 471px;
+    Height: 78px;
+    font-size: 16px;
+    font-style: normal;
+}

@@ -1,0 +1,45 @@
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 645px 20px 675px 49px;
+}
+
+.menu,
+.title,
+.text {
+    font-family: 'Jost', sans-serif;
+}
+
+nav .menu:hover {
+    text-decoration: underline;
+}
+
+.logomenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 42px 120px;
+}
+
+.container {
+    display: flex;
+}
+
+.title {
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+
+}
+
+.text {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.lefttext,
+.footer_main {
+    margin-left: 120px;
+}
+
+.footer_main {
+    position: fixed;
+}
