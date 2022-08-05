@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h4>Самое лучшее для ваших любимцев</h4>
+        <fieldset>
+            <legend>Выберите корм</legend>
+            <select name="feed">
+                <option value="Monge">Monge</option>
+                <option value="Chicopee">Chicopee</option>
+            </select>
+            <select name="weight">
+                <option value="0">4 кг</option>
+                <option value="1">12 кг</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Доставка</legend>
+            <label>
+                <input type="radio" name="delivery" value="pickpoint" checked="checked ">Самовывоз
+            </label>
+            <label>
+                <input type="radio" name="delivery" value="address">Доставка по адресу
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Скидки? Да!</legend>
+            <label>У меня купон:<input type="text" name="coupon"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Оформить заказ</legend>
+            <button>Посчитать</button>
+            <div class="result"></div>
+        </fieldset>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
