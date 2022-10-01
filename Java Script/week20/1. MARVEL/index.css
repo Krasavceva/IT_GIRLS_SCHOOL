@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(192, 192, 192);
+    color: rgba(19, 18, 18, 0.784);
+}
+
+.wrapper {
+    margin: 2% 0;
+}
+
+.title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 14, 14, 0.856);
+    font-size: 50px;
+    margin: 20px auto;
+}
+
+.card-container {
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2%;
+    text-align: center;
+}
+
+.card {
+    max-width: 100%;
+    background-color: rgba(36, 32, 32, 0.038);
+    padding: 10px;
+}
+
+.card__name {
+    color: rgb(226, 4, 4);
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+.card__img {
+    width: 100%;
+}
+
