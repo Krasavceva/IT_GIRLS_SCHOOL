@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cats.css">
+</head>
+
+<body>
+    <h1>Страница-опросник для владельцев кошек</h1>
+    <form class="form">
+        <div class="field">
+            <label for="name"><b>Кличка питомца</b></label>
+            <input type="text" id=name required> *
+        </div>
+        <div class="field">
+            <label for="name2"><b>Имя и контакты владельца</b></label>
+            <input type="text" id="name2" required> *
+        </div>
+        <div class="field">
+            <label for="breed"><b>Порода питомца</b></label>
+            <select>
+                <option value="1">Мей-кун</option>
+                <option value="2">Абисинец</option>
+                <option value="3">Персидский</option>
+                <option value="4">Корниш-рекс</option>
+                <option value="5">Сфинкс</option>
+            </select>
+        </div>
+        <div class="field">
+            <label for="name3"><b>Чем питается</b></label>
+            <br>Сухой корм<input type="radio">
+            <br>Влажный корм<input type="radio">
+            <br>Натуральный корм<input type="radio">
+        </div>
+        <div class="field">
+            <label for="sex"><b>Пол</b></label>
+            <br>Самец<input type="radio" name="sex" />
+            <br>Самка<input type="radio" name="sex" />
+        </div>
+        <div class="field">
+            <label for="comments"><b>Комментарии</b></label>
+            <textarea rows="10" cols="50"></textarea>
+        </div>
+        <div class="field">
+            <label for="photo"><b>Фото питомца</b></label>
+            <input type="file">
+        </div>
+        <button class="btn" type ="submit">Сохранить</button>
+    </form>
+
+<script src ="./cats.js"></script>
+</body>
+
+</html>

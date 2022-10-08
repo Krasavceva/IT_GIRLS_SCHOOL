@@ -1,0 +1,40 @@
+input:required:valid {
+    border-color: rgb(166, 255, 166);
+}
+
+input:invalid {
+    border-color: rgba(255, 0, 0, 0.411);
+}
+
+body {
+    background-color: grey;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    width: 50wv;
+    margin-left: 30%;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 15px 50px;
+
+    background-color: rgb(168, 124, 212);
+    border-radius: 10px;
+    border-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
