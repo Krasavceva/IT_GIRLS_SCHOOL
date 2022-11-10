@@ -1,0 +1,45 @@
+.App {
+    display: flex;
+  justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(63, 61, 61);
+    color: rgba(19, 18, 18, 0.784);
+}
+
+.wrapper {
+    display: flex;
+  max-width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color:beige;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size:50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    margin: 15px 0 5px 0;
+}
+
+.hero-card {
+    margin: 5% 5%;
+    text-align:start;
+}
+
+.name,
+.username {
+    color: rgb(228, 57, 57);
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.img {
+    width: 20%;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+.photo{
+    width: 50%;
+}
+
